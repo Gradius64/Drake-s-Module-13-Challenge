@@ -1,3 +1,14 @@
+interface User {
+    _id: string;
+    username: string;
+    email: string;
+    bookCount: number;
+    
+}
+
+
+
+
 const fetchCandidates = async () => {
 
     
@@ -26,6 +37,8 @@ function getUser(): User | null {
     const userData = localStorage.getItem('user');
     return userData ? JSON.parse(userData) : null;
 }
+
+
 
 
 
