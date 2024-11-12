@@ -38,6 +38,10 @@ function getUser(): User | null {
     return userData ? JSON.parse(userData) : null;
 }
 
+const fetchCandidates = async () => {
+    // logic to fetch candidates
+};
+
 
 
 
