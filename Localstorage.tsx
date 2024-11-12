@@ -29,7 +29,13 @@ function getUser(): User | null {
 function removeUser(): void {
     localStorage.removeItem("user");
 }
-    
+
+// Example usage
+
+const retrievedUser = getUser();
+if (retrievedUser) {
+    console.log(retrievedUser.id, retrievedUser.name);
+}
 
 
 
