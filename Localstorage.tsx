@@ -10,7 +10,7 @@ if (userData) {
     console.log(user.id, user.name); // Access properties of the user object
 }
 
-// remove data
+// remove item
 
 localStorage.removeItem("user");
 
