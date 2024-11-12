@@ -9,7 +9,7 @@ interface User {
 
 
 
-const fetchCandidates = async () => {
+const fetchCandidatesFromDatabase = async () => {
 
     
 
@@ -21,7 +21,7 @@ const fetchCandidates = async () => {
     return data;
 }
 
-const handleAnswer = (isCorrect) => {
+const handleAnswer1 = (isCorrect) => {
     if (isCorrect) {
       
     }
