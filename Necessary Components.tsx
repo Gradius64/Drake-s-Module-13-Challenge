@@ -1,15 +1,4 @@
-interface User {
-    _id: string;
-    username: string;
-    email: string;
-    bookCount: number;
-    
-}
-
-
-
-
-const fetchCandidatesFromDatabase = async () => {
+const fetchCandidates = async () => {
 
     
 
@@ -21,28 +10,14 @@ const fetchCandidatesFromDatabase = async () => {
     return data;
 }
 
-const handleAnswer1 = (isCorrect) => {
+const handleAnswer = (isCorrect) => {
     if (isCorrect) {
       
     }
 
-    const Quiz = () => {
+    const Quiz1 = () => {
 
     // Function to save user to local storage
-function saveUser(user: User): void {
-    localStorage.setItem('user', JSON.stringify(user));
-}
-
-function getUser(): User | null {
-    const userData = localStorage.getItem('user');
-    return userData ? JSON.parse(userData) : null;
-}
-
-const fetchCandidates = async () => {
-    // logic to fetch candidates
-};
-
-
 
 
 
